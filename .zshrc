@@ -81,9 +81,9 @@ alias c='clear'
 alias n='nvim'
 
 # Ibus KDE
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
+# export GTK_IM_MODULE=ibus
+# export QT_IM_MODULE=ibus
+# export XMODIFIERS=@im=ibus
 
 # Ibus avro fix
 # export OOO_FORCE_DESKTOP="gnome" libreoffice
