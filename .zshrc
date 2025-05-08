@@ -38,6 +38,8 @@ zinit cdreplay -q
 
 # keybindings 
 # bindkey -e
+bindkey ';5C' forward-word
+bindkey ';5D' backward-word
 
 # History
 HISTSIZE=5000
