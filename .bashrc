@@ -143,5 +143,6 @@ esac
 
 alias ls='eza --icons=always -a --group-directories-first'
 alias ws=windsurf
+alias nv=nvim
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

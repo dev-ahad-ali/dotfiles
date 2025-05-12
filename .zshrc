@@ -80,7 +80,7 @@ esac
 alias ls='eza --icons=always -a --group-directories-first'
 alias ws=windsurf
 alias c='clear'
-alias n='nvim'
+alias nv='nvim'
 
 # Ibus KDE
 # export GTK_IM_MODULE=ibus
