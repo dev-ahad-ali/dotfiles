@@ -9,10 +9,9 @@ local wezterm = require("wezterm")
 return {
 	default_prog = { "/home/dev-ahad-ali/.cargo/bin/zellij" },
 	window_close_confirmation = "NeverPrompt",
-	-- Set font to JetBrains Mono Nerd Font
 	font = wezterm.font("JetBrains Mono Nerd Font"),
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
-	font_size = 12.0, -- Adjust size if needed
+	font_size = 14.0,
 
 	-- Start in fullscreen mode
 	-- initial_cols = 50, -- Default width
@@ -21,7 +20,7 @@ return {
 	enable_tab_bar = true, -- Keep tab bar enabled
 	hide_tab_bar_if_only_one_tab = true, -- Hide tab bar if only one tab
 
-	-- Remove window padding
+	-- window padding
 	window_padding = {
 		left = 10,
 		right = 10,
@@ -34,7 +33,7 @@ return {
 	macos_window_background_blur = 30, -- Blur effect (macOS only)
 	background = {
 		{
-			source = { Color = "#1E1E2E" }, -- Base background color (Dracula-style dark)
+			source = { Color = "#282828" }, -- Base background color (Gruvbox style)
 			width = "100%",
 			height = "100%",
 			opacity = 0.85, -- Opacity applied to background
@@ -42,7 +41,7 @@ return {
 	},
 
 	-- Color scheme
-	color_scheme = "Catppuccin Mocha", -- Aesthetic dark color scheme
+	color_scheme = "Gruvbox", -- Gruvbox dark color scheme
 
 	-- Keybindings
 	keys = {
