@@ -1,4 +1,5 @@
 theme "gruvbox"
 default_layout "compact"
 on_force_close "quit"
-
+pane_frames false
+copy_on_select false

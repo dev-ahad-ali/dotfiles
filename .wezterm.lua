@@ -16,7 +16,7 @@ return {
 	-- Start in fullscreen mode
 	-- initial_cols = 50, -- Default width
 	-- initial_rows = 50,  -- Default height
-	window_decorations = "RESIZE", -- Remove title bar
+	-- window_decorations = "RESIZE", -- Remove title bar
 	enable_tab_bar = true, -- Keep tab bar enabled
 	hide_tab_bar_if_only_one_tab = true, -- Hide tab bar if only one tab
 
