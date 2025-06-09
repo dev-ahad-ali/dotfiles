@@ -23,9 +23,9 @@ return {
 	-- window padding
 	window_padding = {
 		left = 10,
-		right = 10,
+		right = 5,
 		top = 5,
-		bottom = 5,
+		bottom = 0,
 	},
 
 	-- Background settings
