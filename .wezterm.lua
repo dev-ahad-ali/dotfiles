@@ -41,7 +41,7 @@ return {
 	},
 
 	-- Color scheme
-	color_scheme = "Gruvbox", -- Gruvbox dark color scheme
+	color_scheme = "Tokyo Night", -- Gruvbox dark color scheme
 
 	-- Keybindings
 	keys = {
