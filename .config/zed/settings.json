@@ -1,0 +1,306 @@
+{
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null,
+      "enterprise_uri": null
+    },
+    "enabled_in_text_threads": false
+  },
+  "gutter": {
+    "min_line_number_digits": 0
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "code_actions": false,
+    "agent_review": false,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "agent": {
+    "default_profile": "ask",
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "title_bar": {
+    "show_user_picture": false,
+    "show_branch_name": true
+  },
+  "icon_theme": "Material Icon Theme",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "base_keymap": "VSCode",
+  "theme": "Andromeda Dark",
+  "cursor_shape": "bar",
+  "ui_font_size": 16,
+  "ui_font_weight": 400,
+  "buffer_font_size": 18,
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 600,
+  // Finder model width
+  "file_finder": {
+    "modal_max_width": "large",
+    "file_icons": true,
+    "git_status": true,
+    "include_ignored": true
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_features": {
+    "liga": false,
+    "calt": false,
+    "kern": false
+  },
+  "ui_font_family": "SF Pro Rounded",
+  // Vim mode settings
+  "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "normal": "block",
+      "insert": "block",
+      "visual": "block",
+      "replace": "block"
+    },
+    "use_system_clipboard": "on_yank"
+  },
+  // use relative line numbers
+  "relative_line_numbers": true,
+  "tab_bar": {
+    "show": true
+  },
+  "scrollbar": {
+    "show": "auto",
+    "axes": {
+      "horizontal": false
+    }
+  },
+  // Show diagostics in tabs
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "close_position": "right",
+    "git_status": true,
+    "show_close_button": "hover"
+  },
+  // Indentation, rainbow indentation
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "centered_layout": {
+    "left_padding": 0,
+    "right_padding": 0
+  },
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 16,
+    "line_height": "standard",
+    "env": {
+      "EDITOR": "zed --wait"
+    },
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  // File syntax highlighting
+  "file_types": {
+    "Dockerfile": ["Dockerfile", "Dockerfile.*"],
+    "JSON": ["json", "jsonc", "*.code-snippets"]
+  },
+  // Turn off telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  // Move all panel to the right
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "hide_gitignore": false,
+    "entry_spacing": "standard",
+    "indent_size": 15,
+    "button": true,
+
+    "dock": "right",
+    "git_status": true
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  // Move some unnecessary panels to the left
+  "notification_panel": {
+    "dock": "left"
+  },
+  "chat_panel": {
+    "dock": "left"
+  },
+  "soft_wrap": "editor_width",
+
+  // Inlay hints preconfigured by Zed: Go, Rust, Typescript and Svelte
+  // "inlay_hints": {
+  //   "enabled": true
+  // },
+  "inlay_hints": {
+    "toggle_on_modifiers_press": {
+      "alt": true
+    }
+  },
+  // "linked_edits": false,
+  // LSP
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "classAttributes": ["class", "className", "ngClass", "styles"]
+      }
+    },
+    "typescript-language-server": {
+      "initialization_options": {
+        "preferences": {
+          "includeInlayParameterNameHints": "all",
+          "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+          "includeInlayFunctionParameterTypeHints": true,
+          "includeInlayVariableTypeHints": true,
+          "includeInlayVariableTypeHintsWhenTypeMatchesName": true,
+          "includeInlayPropertyDeclarationTypeHints": true,
+          "includeInlayFunctionLikeReturnTypeHints": true,
+          "includeInlayEnumMemberValueHints": true
+        }
+      }
+    }
+  },
+  // Language settings
+  "languages": {
+    "JavaScript": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "format_on_save": "on",
+      "language_servers": ["typescript-language-server", "!vtsls", "..."]
+    },
+    "TSX": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "language_servers": ["typescript-language-server", "!vtsls", "..."]
+    },
+    "Rust": {
+      "tab_size": 2,
+      "inlay_hints": {
+        "enabled": true
+      },
+      "formatter": "language_server",
+      "format_on_save": "on",
+      "preferred_line_length": 100
+    },
+    "HTML": {
+      "linked_edits": true
+    }
+  },
+  "diagnostics": {
+    "lsp_pull_diagnostics": {
+      "enabled": true,
+      "debounce_ms": 50
+    },
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null
+    }
+  }
+
+  // File scan exclusions, hide on the file explorer and search
+  // "file_scan_exclusions": [
+  //   "**/.git",
+  //   "**/.svn",
+  //   "**/.hg",
+  //   "**/CVS",
+  //   "**/.DS_Store",
+  //   "**/Thumbs.db",
+  //   "**/.classpath",
+  //   "**/.settings",
+  //   // above is default from Zed
+  //   "**/out",
+  //   "**/dist",
+  //   "**/.husky",
+  //   "**/.turbo",
+  //   "**/.vscode-test",
+  //   "**/.vscode",
+  //   "**/.next",
+  //   "**/.storybook",
+  //   "**/.tap",
+  //   "**/.nyc_output",
+  //   "**/report",
+  //   "**/node_modules"
+  // ],
+
+  // "experimental.theme_overrides": {
+  //   // Colors are taken from GitHub theme: https://github.com/PyaeSoneAungRgn/github-zed-theme/blob/main/themes/github_theme.json
+  //   "background.appearance": "blurred",
+  //   "background": "#0d1117b0",
+  //   "editor.background": "#0d111730",
+  //   "editor.gutter.background": "#0d111730",
+  //   "tab_bar.background": "#01040940",
+  //   "terminal.background": "#01040930",
+  //   "toolbar.background": "#0d111730",
+  //   "tab.active_background": "#0d111720",
+  //   "tab.inactive_background": "#01040900",
+  //   "status_bar.background": "#010409f0",
+  //   "title_bar.background": "#010409f0",
+  //   "panel.background": "#01040930",
+  //   "border.variant": "#3d444db3",
+  //   "scrollbar.track.border": "#00000000",
+  //   "editor.active_line.background": "#151b230f"
+  // }
+}
