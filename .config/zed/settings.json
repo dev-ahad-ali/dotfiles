@@ -1,6 +1,6 @@
 {
   "edit_predictions": {
-    "mode": "eager",
+    "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null,
@@ -38,15 +38,15 @@
   "cursor_shape": "bar",
   "ui_font_size": 16,
   "ui_font_weight": 400,
-  "buffer_font_size": 18,
+  "buffer_font_size": 20,
   "buffer_line_height": "standard",
   "buffer_font_weight": 600,
   // Finder model width
   "file_finder": {
     "modal_max_width": "large",
     "file_icons": true,
-    "git_status": true,
-    "include_ignored": true
+    "git_status": true
+    // "include_ignored": true
   },
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_features": {
@@ -112,8 +112,8 @@
   },
   // Turn off telemetry
   "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+    "diagnostics": true,
+    "metrics": true
   },
   // Move all panel to the right
   "project_panel": {
@@ -175,64 +175,64 @@
   },
   // Language settings
   "languages": {
-    "JavaScript": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
-      "format_on_save": "on",
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
-    },
-    "TypeScript": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
-      "format_on_save": "on",
-      "language_servers": ["typescript-language-server", "!vtsls", "..."]
-    },
-    "TSX": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
-      "language_servers": ["typescript-language-server", "!vtsls", "..."]
-    },
+    // "JavaScript": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "prettier",
+    //       "arguments": [
+    //         "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "format_on_save": "on",
+    //   "code_actions_on_format": {
+    //     "source.fixAll.eslint": true
+    //   }
+    // },
+    // "TypeScript": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "prettier",
+    //       "arguments": [
+    //         "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "format_on_save": "on",
+    //   "language_servers": ["typescript-language-server"]
+    // },
+    // "TSX": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "prettier",
+    //       "arguments": [
+    //         // "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "language_servers": ["typescript-language-server"]
+    // },
     "Rust": {
       "tab_size": 2,
       "inlay_hints": {

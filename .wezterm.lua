@@ -29,14 +29,14 @@ return {
 	},
 
 	-- Background settings
-	window_background_opacity = 0.7, -- Set opacity (0.0 = fully transparent, 1.0 = opaque)
+	window_background_opacity = 0.9, -- Set opacity (0.0 = fully transparent, 1.0 = opaque)
 	macos_window_background_blur = 30, -- Blur effect (macOS only)
 	background = {
 		{
 			source = { Color = "#282828" }, -- Base background color (Gruvbox style)
 			width = "100%",
 			height = "100%",
-			opacity = 0.85, -- Opacity applied to background
+			opacity = 0.90, -- Opacity applied to background
 		},
 	},
 
