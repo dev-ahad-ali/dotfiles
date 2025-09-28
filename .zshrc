@@ -68,7 +68,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # pnpm
-export PNPM_HOME="/home/dev_ahad_ali/.local/share/pnpm"
+export PNPM_HOME="~/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -95,6 +95,6 @@ alias nv='nvim'
 # eval "$(fzf init zsh)"
 source <(fzf --zsh)
 
-export PATH=$PATH:/home/dev_ahad_ali/.local/bin
+export PATH=$PATH:~/.local/bin
 
-eval "$(oh-my-posh init zsh --config ~/omp-themes/tokyonight_storm.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"

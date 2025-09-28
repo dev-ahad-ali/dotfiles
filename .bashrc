@@ -1,7 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-eval "$(oh-my-posh init bash --config ~/omp-themes/tokyonight_storm.omp.json)"
+eval "$(oh-my-posh init bash --config ~/user-files/custom_tokyonight_storm.omp.json)"
 # eval "$(oh-my-posh init bash --config ~/omp-themes/atomic.omp.json)"
 #  export GTk_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
@@ -133,7 +133,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # pnpm
-export PNPM_HOME="/home/dev_ahad_ali/.local/share/pnpm"
+export PNPM_HOME="~/.local/share/pnpm"
 case ":$PATH:" in
 *":$PNPM_HOME:"*) ;;
 *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -142,7 +142,6 @@ esac
 . "$HOME/.cargo/env"
 
 alias ls='eza --icons=always -a --group-directories-first'
-alias ws=windsurf
 alias nv=nvim
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
