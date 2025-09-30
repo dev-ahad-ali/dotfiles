@@ -25,6 +25,7 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZL::git.zsh
 zinit snippet OMZP::git
 zinit snippet OMZP::ubuntu
+zinit snippet OMZP::archlinux
 zinit snippet OMZP::postgres
 zinit snippet OMZP::docker
 zinit snippet OMZP::command-not-found

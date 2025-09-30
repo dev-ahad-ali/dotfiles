@@ -7,7 +7,7 @@ local wezterm = require("wezterm")
 -- end)
 
 return {
-	default_prog = { "~/.cargo/bin/zellij" },
+	default_prog = { "/home/dev-ahad-ali/.cargo/bin/zellij" },
 	window_close_confirmation = "NeverPrompt",
 	font = wezterm.font("JetBrains Mono Nerd Font"),
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
