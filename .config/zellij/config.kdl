@@ -277,7 +277,8 @@ theme "everforest-light"
 
 // turn off auto copu on selection
 copy_on_select false
-mouse_mode false
+
+copy_command "wl-copy"
  
 // Choose the base input mode of zellij.
 // Default: normal
