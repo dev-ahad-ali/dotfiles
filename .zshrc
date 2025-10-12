@@ -79,9 +79,9 @@ esac
 
 # aliases
 alias ls='eza --icons=always -a --group-directories-first'
-alias ws=windsurf
 alias c='clear'
 alias nv='nvim'
+alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 
 # Ibus KDE
 # export GTK_IM_MODULE=ibus

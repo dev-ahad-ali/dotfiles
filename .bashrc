@@ -143,5 +143,6 @@ esac
 
 alias ls='eza --icons=always -a --group-directories-first'
 alias nv=nvim
+alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

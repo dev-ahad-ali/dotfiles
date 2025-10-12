@@ -1,13 +1,13 @@
 {
-  "edit_predictions": {
-    "mode": "subtle",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null,
-      "enterprise_uri": null
-    },
-    "enabled_in_text_threads": false
-  },
+  // "edit_predictions": {
+  //   "mode": "subtle",
+  //   "copilot": {
+  //     "proxy": null,
+  //     "proxy_no_verify": null,
+  //     "enterprise_uri": null
+  //   },
+  //   "enabled_in_text_threads": false
+  // },
   "gutter": {
     "min_line_number_digits": 0
   },
@@ -38,12 +38,12 @@
   "cursor_shape": "bar",
   "ui_font_size": 16,
   "ui_font_weight": 400,
-  "buffer_font_size": 20,
-  "buffer_line_height": "standard",
+  "buffer_font_size": 18,
+  "buffer_line_height": "comfortable",
   "buffer_font_weight": 600,
   // Finder model width
   "file_finder": {
-    "modal_max_width": "large",
+    "modal_max_width": "medium",
     "file_icons": true,
     "git_status": true
     // "include_ignored": true
@@ -136,9 +136,9 @@
   "notification_panel": {
     "dock": "left"
   },
-  "chat_panel": {
-    "dock": "left"
-  },
+  // "chat_panel": {
+  //   "dock": "left"
+  // },
   "soft_wrap": "editor_width",
 
   // Inlay hints preconfigured by Zed: Go, Rust, Typescript and Svelte
@@ -259,6 +259,16 @@
       "max_severity": null
     }
   }
+  // "experimental.theme_overrides": { "editor.line_number": "#575862",
+  //   "syntax": {
+  //     "variable": {
+  //       "color": "#53849d"
+  //     },
+  //     "property": {
+  //       "color": "#53849d"
+  //     }
+  //   }
+  // }
 
   // File scan exclusions, hide on the file explorer and search
   // "file_scan_exclusions": [
