@@ -32,7 +32,7 @@ size = 14
 
 [font.normal]
 family = "JetBrains Mono Nerd Font"
-style = "Regular"
+style = "Semibold"
 
 [font.bold]
 family = "JetBrains Mono Nerd Font"
