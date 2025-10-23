@@ -8,6 +8,9 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "gutter": {
     "min_line_number_digits": 0
   },
@@ -26,16 +29,17 @@
     "dock": "right"
   },
   "title_bar": {
-    "show_user_picture": false,
-    "show_branch_name": true
+    "show_user_picture": true,
+    "show_branch_name": true,
+    "show_branch_icon": true
   },
   "icon_theme": "Material Icon Theme",
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
+  // "features": {
+  //   "edit_prediction_provider": "zed"
+  // },
   "base_keymap": "VSCode",
-  "theme": "Andromeda Dark",
-  "cursor_shape": "bar",
+  "theme": "Andromeda Dark Custom",
+  "cursor_shape": "block",
   "ui_font_size": 16,
   "ui_font_weight": 400,
   "buffer_font_size": 18,
@@ -58,6 +62,7 @@
   // Vim mode settings
   "vim_mode": true,
   "vim": {
+    "default_mode": "normal",
     "cursor_shape": {
       "normal": "block",
       "insert": "block",
@@ -69,7 +74,8 @@
   // use relative line numbers
   "relative_line_numbers": true,
   "tab_bar": {
-    "show": true
+    "show": true,
+    "show_nav_history_buttons": false
   },
   "scrollbar": {
     "show": "auto",
@@ -175,64 +181,64 @@
   },
   // Language settings
   "languages": {
-    // "JavaScript": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "prettier",
-    //       "arguments": [
-    //         "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    //   "format_on_save": "on",
-    //   "code_actions_on_format": {
-    //     "source.fixAll.eslint": true
-    //   }
-    // },
-    // "TypeScript": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "prettier",
-    //       "arguments": [
-    //         "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    //   "format_on_save": "on",
-    //   "language_servers": ["typescript-language-server"]
-    // },
-    // "TSX": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "prettier",
-    //       "arguments": [
-    //         // "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    //   "language_servers": ["typescript-language-server"]
-    // },
+    "JavaScript": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "format_on_save": "on",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "format_on_save": "on",
+      "language_servers": ["typescript-language-server"]
+    },
+    "TSX": {
+      "tab_size": 2,
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": [
+            // "--stdin-filepath",
+            "{buffer_path}",
+            "--print-width",
+            "100",
+            "--tab-width",
+            "2",
+            "--single-quote"
+          ]
+        }
+      },
+      "language_servers": ["typescript-language-server"]
+    },
     "Rust": {
       "tab_size": 2,
       "inlay_hints": {
@@ -259,7 +265,8 @@
       "max_severity": null
     }
   }
-  // "experimental.theme_overrides": { "editor.line_number": "#575862",
+  // "experimental.theme_overrides": {
+  //   "editor.line_number": "#575862",
   //   "syntax": {
   //     "variable": {
   //       "color": "#53849d"
@@ -296,7 +303,7 @@
   // ],
 
   // "experimental.theme_overrides": {
-  //   // Colors are taken from GitHub theme: https://github.com/PyaeSoneAungRgn/github-zed-theme/blob/main/themes/github_theme.json
+  // Colors are taken from GitHub theme: https://github.com/PyaeSoneAungRgn/github-zed-theme/blob/main/themes/github_theme.json
   //   "background.appearance": "blurred",
   //   "background": "#0d1117b0",
   //   "editor.background": "#0d111730",
