@@ -104,9 +104,6 @@
     "font_family": "JetBrainsMono Nerd Font",
     "font_size": 16,
     "line_height": "standard",
-    "env": {
-      "EDITOR": "zed --wait"
-    },
     "toolbar": {
       "breadcrumbs": false
     }
@@ -131,6 +128,11 @@
 
     "dock": "right",
     "git_status": true
+  },
+  "git": {
+    "blame": {
+      "show_avatar": true
+    }
   },
   "outline_panel": {
     "dock": "right"
@@ -181,66 +183,84 @@
   },
   // Language settings
   "languages": {
+    // using built in prettier
     "JavaScript": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
-      "format_on_save": "on",
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
-      }
+      "tab_size": 4,
+      "formatter": "prettier",
+      "format_on_save": "on"
     },
     "TypeScript": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
+      "tab_size": 4,
+      "formatter": "prettier",
       "format_on_save": "on",
       "language_servers": ["typescript-language-server"]
     },
     "TSX": {
-      "tab_size": 2,
-      "formatter": {
-        "external": {
-          "command": "prettier",
-          "arguments": [
-            // "--stdin-filepath",
-            "{buffer_path}",
-            "--print-width",
-            "100",
-            "--tab-width",
-            "2",
-            "--single-quote"
-          ]
-        }
-      },
+      "tab_size": 4,
+      "formatter": "prettier",
+      "format_on_save": "on",
       "language_servers": ["typescript-language-server"]
     },
+
+    // using external prettier
+    // "JavaScript": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
+    //       "arguments": [
+    //         "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "format_on_save": "on"
+    // },
+    // "TypeScript": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
+    //       "arguments": [
+    //         "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "format_on_save": "on",
+    //   "language_servers": ["typescript-language-server"]
+    // },
+    // "TSX": {
+    //   "tab_size": 2,
+    //   "formatter": {
+    //     "external": {
+    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
+    //       "arguments": [
+    //         // "--stdin-filepath",
+    //         "{buffer_path}",
+    //         "--print-width",
+    //         "100",
+    //         "--tab-width",
+    //         "2",
+    //         "--single-quote"
+    //       ]
+    //     }
+    //   },
+    //   "language_servers": ["typescript-language-server"]
+    // },
+
     "Rust": {
-      "tab_size": 2,
+      "tab_size": 4,
       "inlay_hints": {
         "enabled": true
       },
