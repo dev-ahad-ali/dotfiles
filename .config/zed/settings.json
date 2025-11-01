@@ -8,6 +8,20 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "auto_install_extensions": {
+    "codebook": true,
+    "docker-compose": true,
+    "emmet": true,
+    "html": true,
+    "prisma": true,
+    "sql": true,
+    "color-highlight": true,
+    "dockerfile": true,
+    "env": true,
+    "material-icon-theme": true,
+    "snippets": true,
+    "toml": true
+  },
   "edit_predictions": {
     "mode": "subtle"
   },
