@@ -23,7 +23,6 @@
       // Close other items
       "space b o": "pane::CloseOtherItems",
       // Save file
-      // "ctrl-s": "workspace::Save",
       "space w": "workspace::Save"
     }
   },
@@ -37,15 +36,13 @@
       "ctrl-d": ["workspace::SendKeystrokes", "ctrl-shift-d z z"]
     }
   },
+  // Worksapce panels
   {
     "context": "Workspace",
     "bindings": {
-      // Map VSCode like keybindings
-      // "cmd-b": "workspace::ToggleRightDock",
       "ctrl-`": "workspace::ToggleBottomDock",
       "alt-e": "workspace::ToggleRightDock",
-      // "ctrl-i": "panet"
-      "ctrl-b": "workspace::ToggleLeftDock"
+      "alt-i": "workspace::ToggleLeftDock"
     }
   }
 ]

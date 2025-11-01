@@ -38,7 +38,7 @@
   //   "edit_prediction_provider": "zed"
   // },
   "base_keymap": "VSCode",
-  "theme": "Andromeda Dark Custom",
+  "theme": "Andromeda Custom",
   "cursor_shape": "block",
   "ui_font_size": 16,
   "ui_font_weight": 400,
@@ -285,17 +285,6 @@
       "max_severity": null
     }
   }
-  // "experimental.theme_overrides": {
-  //   "editor.line_number": "#575862",
-  //   "syntax": {
-  //     "variable": {
-  //       "color": "#53849d"
-  //     },
-  //     "property": {
-  //       "color": "#53849d"
-  //     }
-  //   }
-  // }
 
   // File scan exclusions, hide on the file explorer and search
   // "file_scan_exclusions": [
