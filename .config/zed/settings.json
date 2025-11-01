@@ -8,6 +8,12 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "features": {
+    "edit_prediction_provider": "supermaven"
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  },
   "auto_install_extensions": {
     "codebook": true,
     "docker-compose": true,
@@ -19,11 +25,7 @@
     "dockerfile": true,
     "env": true,
     "material-icon-theme": true,
-    "snippets": true,
     "toml": true
-  },
-  "edit_predictions": {
-    "mode": "subtle"
   },
   "gutter": {
     "min_line_number_digits": 0
@@ -48,9 +50,6 @@
     "show_branch_icon": true
   },
   "icon_theme": "Material Icon Theme",
-  // "features": {
-  //   "edit_prediction_provider": "zed"
-  // },
   "base_keymap": "VSCode",
   "theme": "Andromeda Custom",
   "cursor_shape": "block",
@@ -206,14 +205,12 @@
     "TypeScript": {
       "tab_size": 4,
       "formatter": "prettier",
-      "format_on_save": "on",
-      "language_servers": ["typescript-language-server"]
+      "format_on_save": "on"
     },
     "TSX": {
       "tab_size": 4,
       "formatter": "prettier",
-      "format_on_save": "on",
-      "language_servers": ["typescript-language-server"]
+      "format_on_save": "on"
     },
 
     // using external prettier
@@ -252,7 +249,6 @@
     //     }
     //   },
     //   "format_on_save": "on",
-    //   "language_servers": ["typescript-language-server"]
     // },
     // "TSX": {
     //   "tab_size": 2,
@@ -270,7 +266,6 @@
     //       ]
     //     }
     //   },
-    //   "language_servers": ["typescript-language-server"]
     // },
 
     "Rust": {
