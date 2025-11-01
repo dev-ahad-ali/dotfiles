@@ -37,7 +37,7 @@ autoload -Uz compinit && compinit
 
 zinit cdreplay -q
 
-# keybindings 
+# keybindings
 # bindkey -e
 bindkey ';5C' forward-word
 bindkey ';5D' backward-word
@@ -63,7 +63,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 
-# NVM and PNPM 
+# NVM and PNPM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -81,6 +81,7 @@ esac
 alias ls='eza --icons=always -a --group-directories-first'
 alias c='clear'
 alias nv='nvim'
+alias zed='zeditor'
 alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 
 # Ibus KDE
