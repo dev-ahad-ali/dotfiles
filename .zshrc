@@ -97,6 +97,7 @@ alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 # eval "$(fzf init zsh)"
 source <(fzf --zsh)
 
+export ZED_WINDOW_DECORATIONS=server
 export PATH=$PATH:~/.local/bin
 
 eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"

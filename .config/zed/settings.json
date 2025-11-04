@@ -38,6 +38,10 @@
     "selections_menu": false
   },
   "agent": {
+    "default_model": {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m2:free"
+    },
     "default_profile": "ask",
     "dock": "left"
   },

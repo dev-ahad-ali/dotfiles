@@ -141,6 +141,8 @@ esac
 # pnpm end
 . "$HOME/.cargo/env"
 
+export ZED_WINDOW_DECORATIONS=server
+
 alias ls='eza --icons=always -a --group-directories-first'
 alias nv=nvim
 alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
