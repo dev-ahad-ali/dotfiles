@@ -82,7 +82,6 @@ alias ls='eza --icons=always -a --group-directories-first'
 alias c='clear'
 alias nv='nvim'
 alias zed='zeditor'
-alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 
 # Ibus KDE
 # export GTK_IM_MODULE=ibus
@@ -97,7 +96,13 @@ alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
 # eval "$(fzf init zsh)"
 source <(fzf --zsh)
 
-export ZED_WINDOW_DECORATIONS=server
+export ZED_WINDOW_DECORATIONS=server # zed server decotration for kde
 export PATH=$PATH:~/.local/bin
+
+# Custom export paths to just to different locations
+export Dev=/run/media/dev-ahad-ali/Work-Station/_Development/
+export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
+export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
+export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
 
 eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"

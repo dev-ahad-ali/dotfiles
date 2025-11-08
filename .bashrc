@@ -141,10 +141,15 @@ esac
 # pnpm end
 . "$HOME/.cargo/env"
 
-export ZED_WINDOW_DECORATIONS=server
+export ZED_WINDOW_DECORATIONS=server # zed server decotations for kde
 
 alias ls='eza --icons=always -a --group-directories-first'
 alias nv=nvim
-alias gt_dev='cd /run/media/dev-ahad-ali/Work-Station/_Development/'
+
+# Custom export paths to just to different locations
+export Dev=/run/media/dev-ahad-ali/Work-Station/_Development/
+export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
+export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
+export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
