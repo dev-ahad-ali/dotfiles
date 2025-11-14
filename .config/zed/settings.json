@@ -40,9 +40,9 @@
   "agent": {
     "default_model": {
       "provider": "openrouter",
-      "model": "minimax/minimax-m2:free"
+      "model": "openai/gpt-oss-20b:free"
     },
-    "default_profile": "ask",
+    "default_profile": "write",
     "dock": "left"
   },
   "git_panel": {
