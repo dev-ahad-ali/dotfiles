@@ -82,6 +82,7 @@ alias ls='eza --icons=always -a --group-directories-first'
 alias c='clear'
 alias nv='nvim'
 alias zed='zeditor'
+alias lzd='lazydocker'
 
 # Ibus KDE
 # export GTK_IM_MODULE=ibus
