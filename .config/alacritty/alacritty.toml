@@ -14,7 +14,7 @@ dynamic_padding=false
 padding = {x=5, y=11}
 
 [terminal]
-shell={program="zellij"}
+shell={program="/home/dev-ahad-ali/.local/bin/start-zellij.sh"}
 
 [window.class]
 instance = "Alacritty"

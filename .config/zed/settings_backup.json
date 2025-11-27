@@ -38,11 +38,9 @@
     "selections_menu": false
   },
   "agent": {
-    "default_profile": "ask",
-    "dock": "left",
     "default_model": {
       "provider": "openrouter",
-      "model": "kwaipilot/kat-coder-pro:free"
+      "model": "openai/gpt-oss-20b:free"
     },
     "model_parameters": []
   },
@@ -58,7 +56,7 @@
   "base_keymap": "VSCode",
   "theme": "Andromeda Custom",
   "cursor_shape": "block",
-  "ui_font_size": 18,
+  "ui_font_size": 16,
   "ui_font_weight": 400,
   "buffer_font_size": 18,
   "buffer_line_height": "comfortable",
@@ -90,7 +88,7 @@
     "use_system_clipboard": "on_yank"
   },
   // use relative line numbers
-  "relative_line_numbers": "enabled",
+  "relative_line_numbers": true,
   "tab_bar": {
     "show": true,
     "show_nav_history_buttons": false
