@@ -31,19 +31,19 @@ background = "#282828"
 size = 14
 
 [font.normal]
-family = "JetBrains Mono Nerd Font"
+family = "Lilex Nerd Font"
 style = "Semibold"
 
 [font.bold]
-family = "JetBrains Mono Nerd Font"
+family = "Lilex Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "JetBrains Mono Nerd Font"
+family = "Lilex Nerd Font"
 style = "Italic"
 
 [font.bold_italic]
-family = "JetBrains Mono Nerd Font"
+family = "Lilex Nerd Font"
 style = "Bold Italic"
 
 [selection]
