@@ -77,7 +77,7 @@
     "calt": false,
     "kern": false
   },
-  "ui_font_family": "SF Pro Rounded",
+  "ui_font_family": ".ZedSans",
   // Vim mode settings
   "vim_mode": true,
   "vim": {
