@@ -11,7 +11,7 @@ decorations = "full"
 title = "Alacritty"
 opacity = 1
 dynamic_padding=false
-padding = {x=5, y=11}
+padding = {x=5, y=5}
 
 [terminal]
 shell={program="/home/dev-ahad-ali/.local/bin/start-zellij.sh"}

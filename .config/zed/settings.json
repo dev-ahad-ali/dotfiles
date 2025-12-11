@@ -38,7 +38,7 @@
     "selections_menu": false
   },
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "dock": "left",
     "default_model": {
       "provider": "openrouter",
