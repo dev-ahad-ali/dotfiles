@@ -141,7 +141,7 @@ esac
 # pnpm end
 . "$HOME/.cargo/env"
 
-export ZED_WINDOW_DECORATIONS=server # zed server decotations for kde
+# export ZED_WINDOW_DECORATIONS=server # zed server decotations for kde
 
 alias ls='eza --icons=always -a --group-directories-first'
 alias nv=nvim

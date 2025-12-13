@@ -97,7 +97,7 @@ alias lzd='lazydocker'
 # eval "$(fzf init zsh)"
 source <(fzf --zsh)
 
-export ZED_WINDOW_DECORATIONS=server # zed server decotration for kde
+# export ZED_WINDOW_DECORATIONS=server # zed server decotration for kde
 export PATH=$PATH:~/.local/bin
 
 # Custom export paths to just to different locations
