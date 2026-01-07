@@ -122,9 +122,9 @@
     "right_padding": 0,
   },
   "terminal": {
-    // "font_family": "JetBrainsMono Nerd Font",
     "font_family": "Lilex Nerd Font",
-    "font_size": 16,
+    "font_size": 18,
+    "font_weight": 400,
     "line_height": "standard",
     "toolbar": {
       "breadcrumbs": false,
