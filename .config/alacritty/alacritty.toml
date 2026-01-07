@@ -32,7 +32,7 @@ size = 14
 
 [font.normal]
 family = "Lilex Nerd Font"
-style = "Semibold"
+style = "Medium"
 
 [font.bold]
 family = "Lilex Nerd Font"
