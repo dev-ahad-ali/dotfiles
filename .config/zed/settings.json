@@ -8,6 +8,9 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "sticky_scroll": {
+    "enabled": true
+  },
   "features": {
     "edit_prediction_provider": "supermaven",
   },
