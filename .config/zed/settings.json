@@ -26,6 +26,7 @@
     "env": true,
     "material-icon-theme": true,
     "toml": true,
+    "astro": true,
   },
   "gutter": {
     "min_line_number_digits": 0,
@@ -132,15 +133,8 @@
   },
   // File syntax highlighting
   "file_types": {
-    "Dockerfile": [
-      "Dockerfile",
-      "Dockerfile.*"
-    ],
-    "JSON": [
-      "json",
-      "jsonc",
-      "*.code-snippets"
-    ],
+    "Dockerfile": ["Dockerfile", "Dockerfile.*"],
+    "JSON": ["json", "jsonc", "*.code-snippets"],
   },
   // Turn off telemetry
   "telemetry": {
@@ -190,12 +184,7 @@
   "lsp": {
     "tailwindcss-language-server": {
       "settings": {
-        "classAttributes": [
-          "class",
-          "className",
-          "ngClass",
-          "styles"
-        ],
+        "classAttributes": ["class", "className", "ngClass", "styles"],
       },
     },
     "typescript-language-server": {
