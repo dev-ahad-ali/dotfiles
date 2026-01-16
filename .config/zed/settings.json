@@ -50,7 +50,7 @@
     },
     "model_parameters": [],
   },
-  "agent_ui_font_size": 22,
+  "agent_ui_font_size": 18,
   "agent_buffer_font_size": 16,
   "git_panel": {
     "dock": "left",
@@ -67,7 +67,7 @@
   "cursor_shape": "block",
   "ui_font_size": 18,
   "ui_font_weight": 400,
-  "buffer_font_size": 20,
+  "buffer_font_size": 18,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 400,
   // Finder model width
@@ -128,12 +128,9 @@
   },
   "terminal": {
     "font_family": "Lilex Nerd Font",
-    "font_size": 18,
+    "font_size": 16,
     "font_weight": 400,
     "line_height": "standard",
-    "toolbar": {
-      "breadcrumbs": false,
-    },
   },
   // File syntax highlighting
   "file_types": {
