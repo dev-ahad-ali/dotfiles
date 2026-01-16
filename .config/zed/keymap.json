@@ -23,8 +23,8 @@
       // Close other items
       "space b o": "pane::CloseOtherItems",
       // Save file
-      "space w": "workspace::Save"
-    }
+      "space w": "workspace::Save",
+    },
   },
   // comabine ctrl-u/d with zz
   {
@@ -33,18 +33,18 @@
       "ctrl-shift-u": "vim::ScrollUp",
       "ctrl-u": ["workspace::SendKeystrokes", "ctrl-shift-u z z"],
       "ctrl-shift-d": "vim::ScrollDown",
-      "ctrl-d": ["workspace::SendKeystrokes", "ctrl-shift-d z z"]
-    }
+      "ctrl-d": ["workspace::SendKeystrokes", "ctrl-shift-d z z"],
+    },
   },
   // Worksapce panels
   {
     "context": "Workspace",
     "bindings": {
       "ctrl-`": "workspace::ToggleBottomDock",
-      "alt-e": "workspace::ToggleRightDock",
-      "alt-i": "workspace::ToggleLeftDock"
-    }
-  }
+      "alt-i": "workspace::ToggleRightDock",
+      "alt-e": "workspace::ToggleLeftDock",
+    },
+  },
 ]
 
 // keymap.json, generated at Sat Mar 22 2025 17:00:58 GMT+0800 (Singapore Standard Time)
