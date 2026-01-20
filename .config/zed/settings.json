@@ -27,7 +27,6 @@
     "color-highlight": true,
     "dockerfile": true,
     "env": true,
-    "material-icon-theme": true,
     "toml": true,
     "astro": true,
   },
@@ -46,7 +45,7 @@
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "tngtech/tng-r1t-chimera:free",
+      "model": "xiaomi/mimo-v2-flash:free",
     },
     "model_parameters": [],
   },
