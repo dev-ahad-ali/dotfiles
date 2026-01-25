@@ -152,4 +152,4 @@ export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
 export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
 export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
