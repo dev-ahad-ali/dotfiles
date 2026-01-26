@@ -41,11 +41,11 @@
   //   "selections_menu": false,
   // },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "xiaomi/mimo-v2-flash:free",
+      "model": "arcee-ai/trinity-mini:free",
     },
     "model_parameters": [],
   },
