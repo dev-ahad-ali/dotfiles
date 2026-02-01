@@ -45,7 +45,7 @@
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "arcee-ai/trinity-mini:free",
+      "model": "tngtech/tng-r1t-chimera:free",
     },
     "model_parameters": [],
   },
