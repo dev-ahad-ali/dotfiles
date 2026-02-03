@@ -18,6 +18,7 @@
     "mode": "subtle",
   },
   "auto_install_extensions": {
+    "git-firefly": true,
     "codebook": true,
     "docker-compose": true,
     "emmet": true,
