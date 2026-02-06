@@ -42,11 +42,11 @@
   //   "selections_menu": false,
   // },
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "tngtech/tng-r1t-chimera:free",
+      "model": "arcee-ai/trinity-mini:free",
     },
     "model_parameters": [],
   },
