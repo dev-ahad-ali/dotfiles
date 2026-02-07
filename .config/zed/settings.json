@@ -11,9 +11,6 @@
   "sticky_scroll": {
     "enabled": true,
   },
-  "features": {
-    "edit_prediction_provider": "supermaven",
-  },
   "edit_predictions": {
     "mode": "subtle",
   },
