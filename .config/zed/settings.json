@@ -42,7 +42,7 @@
   //   "selections_menu": false,
   // },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
