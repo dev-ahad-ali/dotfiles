@@ -8,6 +8,34 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "context_servers": {
+    "mcp-server-github": {
+      "enabled": false,
+      "remote": false,
+      "settings": {
+        "github_personal_access_token": "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"
+      }
+    },
+    "chrome-devtools-mcp-zed": {
+      "enabled": false,
+      "remote": false,
+      "settings": {}
+    },
+    "mcp-server-figma": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "figma_api_key": "figd_Ayf5ttxxiZCMi6-PCCWQYpUNK0j9rlb6lV5vT-Ar"
+      }
+    },
+    "mcp-server-context7": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "context7_api_key": "ctx7sk-300c35bb-abfa-4492-93d9-c2b5c5f484a1"
+      }
+    }
+  },
   "sticky_scroll": {
     "enabled": true,
   },
