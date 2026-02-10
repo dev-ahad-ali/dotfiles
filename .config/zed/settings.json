@@ -43,7 +43,7 @@
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "arcee-ai/trinity-mini:free",
+      "model": "openrouter/free",
     },
     "model_parameters": [],
   },
