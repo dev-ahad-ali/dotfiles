@@ -13,28 +13,28 @@
       "enabled": false,
       "remote": false,
       "settings": {
-        "github_personal_access_token": "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"
-      }
+        "github_personal_access_token": "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",
+      },
     },
     "chrome-devtools-mcp-zed": {
       "enabled": false,
       "remote": false,
-      "settings": {}
+      "settings": {},
     },
     "mcp-server-figma": {
-      "enabled": true,
+      "enabled": false,
       "remote": false,
       "settings": {
-        "figma_api_key": "figd_Ayf5ttxxiZCMi6-PCCWQYpUNK0j9rlb6lV5vT-Ar"
-      }
+        "figma_api_key": "figd_Ayf5ttxxiZCMi6-PCCWQYpUNK0j9rlb6lV5vT-Ar",
+      },
     },
     "mcp-server-context7": {
-      "enabled": true,
+      "enabled": false,
       "remote": false,
       "settings": {
-        "context7_api_key": "ctx7sk-300c35bb-abfa-4492-93d9-c2b5c5f484a1"
-      }
-    }
+        "context7_api_key": "ctx7sk-300c35bb-abfa-4492-93d9-c2b5c5f484a1",
+      },
+    },
   },
   "sticky_scroll": {
     "enabled": true,
@@ -71,7 +71,7 @@
     "dock": "right",
     "default_model": {
       "provider": "openrouter",
-      "model": "openrouter/free",
+      "model": "arcee-ai/trinity-mini:free",
     },
     "model_parameters": [],
   },
@@ -92,7 +92,7 @@
   "cursor_shape": "block",
   "ui_font_size": 18,
   "ui_font_weight": 400,
-  "buffer_font_size": 18,
+  "buffer_font_size": 18.0,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 400,
   // Finder model width
@@ -311,6 +311,10 @@
     },
     "HTML": {
       "linked_edits": true,
+    },
+    "Liquid": {
+      "formatter": "language_server",
+      "format_on_save": "on",
     },
   },
   "diagnostics": {
