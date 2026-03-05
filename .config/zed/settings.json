@@ -185,6 +185,7 @@
     },
   },
   "outline_panel": {
+    "auto_fold_dirs": false,
     "dock": "right",
   },
   "collaboration_panel": {
