@@ -8,6 +8,9 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "session": {
+    "trust_all_worktrees": false,
+  },
   "context_servers": {
     "mcp-server-github": {
       "enabled": false,
@@ -101,8 +104,6 @@
   "file_finder": {
     "modal_max_width": "medium",
     "file_icons": true,
-    "git_status": true,
-    // "include_ignored": true
   },
   // "buffer_font_family": "JetBrains Mono",
   "buffer_font_family": "Lilex Nerd Font",

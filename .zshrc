@@ -100,10 +100,11 @@ source <(fzf --zsh)
 # export ZED_WINDOW_DECORATIONS=server # zed server decotration for kde
 export PATH=$PATH:~/.local/bin
 
-# Custom export paths to just to different locations
+# Custom export paths to move to different locations
 export Dev=/run/media/dev-ahad-ali/Work-Station/_Development/
 export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
 export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
 export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
+export WorkStation=/run/media/dev-ahad-ali/Work-Station/
 
 eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"
