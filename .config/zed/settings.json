@@ -43,7 +43,7 @@
     "enabled": true,
   },
   "edit_predictions": {
-    "mode": "subtle",
+    "mode": "eager",
   },
   "auto_install_extensions": {
     "git-firefly": true,
