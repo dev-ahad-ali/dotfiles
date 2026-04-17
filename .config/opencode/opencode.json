@@ -1,3 +1,27 @@
 {
-  "$schema": "https://opencode.ai/config.json"
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+        "zai-mcp-server": {
+            "type": "local",
+            "command": ["npx","-y","@z_ai/mcp-server"],
+            "environment": {
+                "Z_AI_API_KEY": "ae027fb1d7d14c01ac7b07b3854a8220.1MjAKjbOmzLU0vWB",
+                "Z_AI_MODE": "ZAI"
+            }
+        },
+        "web-search-prime": {
+            "type": "remote",
+            "url": "https://api.z.ai/api/mcp/web_search_prime/mcp",
+            "headers": {
+                "Authorization": "Bearer ae027fb1d7d14c01ac7b07b3854a8220.1MjAKjbOmzLU0vWB"
+            }
+        },
+        "web-reader": {
+            "type": "remote",
+            "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+            "headers": {
+                "Authorization": "Bearer ae027fb1d7d14c01ac7b07b3854a8220.1MjAKjbOmzLU0vWB"
+            }
+        } 
+    }
 }
