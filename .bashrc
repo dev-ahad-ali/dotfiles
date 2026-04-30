@@ -139,7 +139,6 @@ case ":$PATH:" in
 *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-. "$HOME/.cargo/env"
 
 # export ZED_WINDOW_DECORATIONS=server # zed server decotations for kde
 
