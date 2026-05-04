@@ -18,6 +18,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
+      inlay_hints = { enabled = false },
       servers = {
         -- YAML LSP
         yamlls = {
@@ -35,7 +36,19 @@ return {
         prismals = {},
         -- TailwindCSS LSP
         tailwindcss = {
-          filetypes = { "html", "css", "scss", "javascript", "javascriptreact", "typescript", "typescriptreact", "tsx", "jsx", "astro", "mdx" },
+          filetypes = {
+            "html",
+            "css",
+            "scss",
+            "javascript",
+            "javascriptreact",
+            "typescript",
+            "typescriptreact",
+            "tsx",
+            "jsx",
+            "astro",
+            "mdx",
+          },
           init_options = {
             userLanguages = {
               eel = "html-eex",
