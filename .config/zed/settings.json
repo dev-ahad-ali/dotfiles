@@ -8,6 +8,14 @@
   //   },
   //   "enabled_in_text_threads": false
   // },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry",
+      "default_config_options": {
+        "mode": "plan",
+      },
+    },
+  },
   "cli_default_open_behavior": "new_window",
   "session": {
     "trust_all_worktrees": false,
@@ -64,13 +72,6 @@
   "gutter": {
     "min_line_number_digits": 0,
   },
-  // "toolbar": {
-  //   "breadcrumbs": false,
-  //   "code_actions": false,
-  //   "agent_review": false,
-  //   "quick_actions": false,
-  //   "selections_menu": false,
-  // },
   "agent": {
     "default_profile": "ask",
     "dock": "right",
@@ -97,10 +98,12 @@
   "theme": "Catbox Dark",
   "cursor_shape": "block",
   "ui_font_size": 18,
-  "ui_font_weight": 400,
-  "buffer_font_size": 18.0,
-  "buffer_line_height": "comfortable",
-  "buffer_font_weight": 400,
+  "ui_font_weight": 500,
+  "buffer_font_size": 18,
+  "buffer_line_height": {
+    "custom": 1.399999976158142,
+  },
+  "buffer_font_weight": 500,
   // Finder model width
   "file_finder": {
     "modal_max_width": "medium",
@@ -113,7 +116,7 @@
     "calt": false,
     "kern": false,
   },
-  "ui_font_family": ".ZedSans",
+  "ui_font_family": "Lilex Nerd Font",
   // Vim mode settings
   "vim_mode": true,
   "vim": {
@@ -158,7 +161,7 @@
   "terminal": {
     "font_family": "Lilex Nerd Font",
     "font_size": 16,
-    "font_weight": 400,
+    "font_weight": 500,
     "line_height": "standard",
   },
   // File syntax highlighting
@@ -193,13 +196,6 @@
   "collaboration_panel": {
     "dock": "left",
   },
-  // Move some unnecessary panels to the left
-  "notification_panel": {
-    "dock": "left",
-  },
-  // "chat_panel": {
-  //   "dock": "left"
-  // },
   "soft_wrap": "editor_width",
   // Inlay hints preconfigured by Zed: Go, Rust, Typescript and Svelte
   // "inlay_hints": {
@@ -240,71 +236,29 @@
       "tab_size": 4,
       "formatter": "prettier",
       "format_on_save": "on",
+      "preferred_line_length": 100,
     },
     "TypeScript": {
       "tab_size": 4,
       "formatter": "prettier",
       "format_on_save": "on",
+      "preferred_line_length": 100,
     },
     "TSX": {
       "tab_size": 4,
       "formatter": "prettier",
       "format_on_save": "on",
+      "preferred_line_length": 100,
     },
-    // using external prettier
-    // "JavaScript": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
-    //       "arguments": [
-    //         "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    //   "format_on_save": "on"
-    // },
-    // "TypeScript": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
-    //       "arguments": [
-    //         "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    //   "format_on_save": "on",
-    // },
-    // "TSX": {
-    //   "tab_size": 2,
-    //   "formatter": {
-    //     "external": {
-    //       "command": "/home/dev-ahad-ali/.nvm/versions/node/v22.20.0/bin/prettier",
-    //       "arguments": [
-    //         // "--stdin-filepath",
-    //         "{buffer_path}",
-    //         "--print-width",
-    //         "100",
-    //         "--tab-width",
-    //         "2",
-    //         "--single-quote"
-    //       ]
-    //     }
-    //   },
-    // },
+    "Go": {
+      "formatter": "language_server",
+      "format_on_save": "on",
+      "tab_size": 4,
+      "inlay_hints": {
+        "enabled": true,
+      },
+      "preferred_line_length": 100,
+    },
     "Rust": {
       "tab_size": 4,
       "inlay_hints": {
@@ -316,6 +270,7 @@
     },
     "HTML": {
       "linked_edits": true,
+      "preferred_line_length": 100,
     },
   },
   "diagnostics": {
