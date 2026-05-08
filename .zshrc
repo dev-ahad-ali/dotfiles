@@ -106,4 +106,5 @@ export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
 export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
 export WorkStation=/run/media/dev-ahad-ali/Work-Station/
 
-eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"
+# eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"
+eval "$(starship init zsh)"

@@ -1,0 +1,19 @@
+add_newline = false
+
+[custom.package_manager]
+description = "Show the package manager being used (npm, pnpm, or bun)"
+# This module will only show if one of these files exists
+detect_files = ["package-lock.json", "pnpm-lock.yaml", "bun.lockb", "yarn.lock"]
+command = """
+if [ -f "pnpm-lock.yaml" ]; then
+  echo "pnpm"
+elif [ -f "bun.lockb" ]; then
+  echo "bun"
+elif [ -f "yarn.lock" ]; then
+  echo "yarn"
+else
+  echo "npm"
+fi
+"""
+format = "via [📦$output]($style) "
+# style = "bold blue"
