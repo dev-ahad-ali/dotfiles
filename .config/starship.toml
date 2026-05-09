@@ -1,5 +1,8 @@
 add_newline = false
 
+[cmd_duration]
+disabled = true
+
 [custom.package_manager]
 description = "Show the package manager being used (npm, pnpm, or bun)"
 # This module will only show if one of these files exists
@@ -15,5 +18,5 @@ else
   echo "npm"
 fi
 """
-format = "via [📦$output]($style) "
+format = "| [📦$output]($style) "
 # style = "bold blue"
