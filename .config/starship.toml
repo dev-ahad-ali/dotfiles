@@ -18,5 +18,5 @@ else
   echo "npm"
 fi
 """
-format = "| [📦$output]($style) "
+format = "| [$output]($style) "
 # style = "bold blue"
