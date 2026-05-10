@@ -1,7 +1,5 @@
 {
-  "$schema": "https://opencode.ai/tui.json",
-  "keybinds": {
-    "variant_cycle": "ctrl+shift+t",
-    "command_list": "ctrl+shift+p"
-  }
+    "$schema": "https://opencode.ai/tui.json",
+    "keybinds": {}
 }
+

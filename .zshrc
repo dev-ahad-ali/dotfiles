@@ -1,8 +1,5 @@
 # zsh configs -----------------------------------
 
-# Homebrew
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -83,28 +80,10 @@ alias nv='nvim'
 alias zed='zeditor'
 alias lzd='lazydocker'
 
-# Ibus KDE
-# export GTK_IM_MODULE=ibus
-# export QT_IM_MODULE=ibus
-# export XMODIFIERS=@im=ibus
-
-# Ibus avro fix
-# export OOO_FORCE_DESKTOP="gnome" libreoffice
-
-
 # Shell integrations
 # eval "$(fzf init zsh)"
 source <(fzf --zsh)
 
-# export ZED_WINDOW_DECORATIONS=server # zed server decotration for kde
 export PATH=$PATH:~/.local/bin
 
-# Custom export paths to move to different locations
-export Dev=/run/media/dev-ahad-ali/Work-Station/_Development/
-export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
-export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
-export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
-export WorkStation=/run/media/dev-ahad-ali/Work-Station/
-
-# eval "$(oh-my-posh init zsh --config ~/user-files/custom_tokyonight_storm.omp.json)"
 eval "$(starship init zsh)"

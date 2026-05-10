@@ -1,7 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-eval "$(oh-my-posh init bash --config ~/user-files/custom_tokyonight_storm.omp.json)"
+eval "$(starship init bash)"
 # eval "$(oh-my-posh init bash --config ~/omp-themes/atomic.omp.json)"
 #  export GTk_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
@@ -140,15 +140,5 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# export ZED_WINDOW_DECORATIONS=server # zed server decotations for kde
-
 alias ls='eza --icons=always -a --group-directories-first'
 alias nv=nvim
-
-# Custom export paths to just to different locations
-export Dev=/run/media/dev-ahad-ali/Work-Station/_Development/
-export Coding=/run/media/dev-ahad-ali/Work-Station/_Development/Coding/
-export Work=/run/media/dev-ahad-ali/Work-Station/_Development/Work/
-export Space=/run/media/dev-ahad-ali/Work-Station/_Development/Space/
-
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
