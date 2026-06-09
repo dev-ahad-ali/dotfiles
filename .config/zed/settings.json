@@ -159,7 +159,7 @@
   },
   "git": {
     "inline_blame": {
-      "enabled": false
+      "enabled": false,
     },
     "blame": {
       "show_avatar": true,
@@ -249,6 +249,7 @@
       "preferred_line_length": 100,
     },
   },
+
   "diagnostics": {
     "lsp_pull_diagnostics": {
       "enabled": true,
