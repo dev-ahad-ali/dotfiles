@@ -1,24 +1,25 @@
 return {
   {
-    "daschw/leaf.nvim",
+    "tiesen243/vercel.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("leaf").setup({
-        underlineStyle = "underline",
-        commentStyle = "italic",
-        functionStyle = "NONE",
-        keywordStyle = "italic",
-        statementStyle = "bold",
-        typeStyle = "NONE",
-        variablebuiltinStyle = "italic",
-        transparent = false,
-        colors = {},
-        overrides = {},
-        theme = "light",
-        contrast = "low",
+      require("vercel").setup({
+        theme = "dark",
+        transparent = false, -- Boolean: Sets the background to transparent (Default: false)
+        italics = {
+          comments = true, -- Boolean: Italicizes comments (Default: true)
+          keywords = true, -- Boolean: Italicizes keywords (Default: true)
+          functions = true, -- Boolean: Italicizes functions (Default: true)
+          strings = true, -- Boolean: Italicizes strings (Default: true)
+          variables = true, -- Boolean: Italicizes variables (Default: true)
+          bufferline = false, -- Boolean: Italicizes bufferline (Default: false)
+        },
+        overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
       })
-      require("leaf").load()
+
+      -- This must be called before setting the colorscheme, otherwise it will always default to light mode
+      vim.cmd.colorscheme("vercel")
     end,
   },
 }
