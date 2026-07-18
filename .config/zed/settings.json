@@ -73,7 +73,7 @@
   // "icon_theme": "Material Icon Theme",
   "icon_theme": "Zed (Default)",
   "base_keymap": "VSCode",
-  "theme": "el",
+  "theme": "Catbox Dark",
   "cursor_shape": "block",
   "ui_font_size": 16,
   "ui_font_weight": 500,
