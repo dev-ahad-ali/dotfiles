@@ -79,6 +79,8 @@ alias c='clear'
 alias nv='nvim'
 alias zed='zeditor'
 alias lzd='lazydocker'
+alias claude-personal='CLAUDE_CONFIG_DIR=~/.claude-personal claude'
+alias claude-work='CLAUDE_CONFIG_DIR=~/.claude-work claude'
 
 # Shell integrations
 # eval "$(fzf init zsh)"
