@@ -10,7 +10,7 @@
       "style": {
         "background.appearance": "opaque",
         "accents": [],
-        "border": "#b8b3b396",
+        "border": "#4D4D4D",
         "border.variant": "#383838",
         "border.focused": "#d6d6dd00",
         "border.selected": "#383838",
@@ -180,7 +180,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#83d6c5",
+            "color": "#aa9bf5",
             "font_style": null,
             "font_weight": null
           },
@@ -285,7 +285,7 @@
             "font_weight": 400
           },
           "variable": {
-            "color": "#d6d6d6",
+            "color": "#aa9bf5",
             "font_style": null,
             "font_weight": null
           },
